@@ -172,6 +172,9 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
+    simple_xlsx_reader (4.0.1)
+      nokogiri
+      rubyzip
     sprockets (4.2.0)
       concurrent-ruby (~> 1.0)
       rack (>= 2.2.4, < 4)
@@ -222,6 +225,7 @@ DEPENDENCIES
   rails (~> 7.0.4, >= 7.0.4.3)
   redis (~> 4.0)
   selenium-webdriver
+  simple_xlsx_reader
   sprockets-rails
   stimulus-rails
   tailwindcss-rails
